@@ -1,6 +1,5 @@
 class GreetingController < ApplicationController
-  def index
-  end
+  def index; end
 
   def message
     @greetings = Greeting.all
