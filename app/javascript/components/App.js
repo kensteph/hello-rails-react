@@ -2,6 +2,7 @@ import React from 'react'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Greetings from './Greetings';
 import { Provider } from 'react-redux';
+import store from '../redux/store';
 
 const router = createBrowserRouter([
   {
